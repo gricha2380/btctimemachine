@@ -1,7 +1,44 @@
 body {
-	//background: green;
-	//color: red;
+	background-color: #e2e2ff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 10px 20px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    form {
+    	width: 250px;
+    	#calculate {
+    		background: rgba(0, 0, 0, 0.17);
+		    border: none;
+		    font-size: 1.2em;
+		    margin-top: 10px;
+		    padding: 5px 20px;
+		    width: 100%;
+    	}
+    	select {
+    		margin-right: 10px;
+    	}
+    }
+    .response {
+    	margin-top: 20px;
+    }
+    #asOf:not(:empty),#answer:not(:empty) {
+    	background: rgba(13, 243, 57, 0.3);
+	    padding: 10px 10px 0 10px;
+	    width: 230px;
+	    text-align: center;
+	    font-weight: normal;
+
+    }
+    #answer:not(:empty) {
+		padding: 10px;
+	}
+
+    h1 {
+    	font-weight: normal;
+    }
 	p {
 		padding: 10px 0px;
 	}
+
 }

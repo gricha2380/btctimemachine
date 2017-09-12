@@ -1,2 +1,2 @@
-body p{padding:10px 0}
+body{background-color:#e2e2ff;font-family:sans-serif;font-weight:lighter;padding:10px 20px;line-height:1.5em;font-size:1.2em}body form{width:250px}body form #calculate{background:rgba(0,0,0,.17);border:none;font-size:1.2em;margin-top:10px;padding:5px 20px;width:100%}body form select{margin-right:10px}body .response{margin-top:20px}body #answer:not(:empty),body #asOf:not(:empty){background:rgba(13,243,57,.3);padding:10px 10px 0;width:230px;text-align:center;font-weight:400}body #answer:not(:empty){padding:10px}body h1{font-weight:400}body p{padding:10px 0}
 /*# sourceMappingURL=main.css.map */
